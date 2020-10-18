@@ -1,6 +1,6 @@
 package com.ecommerce.backend.entities;
 
-import java.io.Serializable; 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -25,7 +25,7 @@ public class Product implements Serializable {
 	private String description;
 	private String price;
 	
-	@ManyToOne
+	@ManyToOne 
 	@JoinColumn(name = "category_id")
 	private Category category;
 	
