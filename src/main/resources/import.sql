@@ -7,9 +7,9 @@ INSERT INTO tb_product (name, description, price, category_id) VALUES ('A teoria
 INSERT INTO tb_product (name, description, price, category_id) VALUES ('Sapiens: Uma breve história da humanidade', 'O que possibilitou ao Homo sapiens subjugar as demais espécies? O que nos torna capazes das mais belas obras de arte, dos avanços científicos mais impensáveis e das mais horripilantes guerras?', 'R$35,91', 2);
 INSERT INTO tb_product (name, description, price, category_id) VALUES ('Panela elétrica', 'Tampa em vidro temperado', 'R$156,01', 1);
 
-INSERT INTO tb_voucher (name, description, discount_amount) VALUES ('PRIMEIRACOMPRA', 'DESCONTO DE 10% NA PRIMEIRA COMPRAR', '10');
-INSERT INTO tb_voucher (name, description, discount_amount) VALUES ('LEIALIVRO', 'DESCONTO DE 40% NA COMPRA DE LIVROS', '40');
-INSERT INTO tb_voucher (name, description, discount_amount) VALUES ('KIDS', 'DESCONTO DE 80% NA COMPRA DE BRINQUEDOS', '80');
+INSERT INTO tb_voucher (name, description, discount_amount) VALUES ('PRIMEIRACOMPRA', 'DESCONTO DE 10% NA PRIMEIRA COMPRAR', '10%');
+INSERT INTO tb_voucher (name, description, discount_amount) VALUES ('LEIALIVRO', 'DESCONTO DE 40% NA COMPRA DE LIVROS', '40%');
+INSERT INTO tb_voucher (name, description, discount_amount) VALUES ('KIDS', 'DESCONTO DE 80% NA COMPRA DE BRINQUEDOS', '80%');
 
 
 INSERT INTO tb_cart (products_id, vouchers_id, moment) VALUES (1, 3, TIMESTAMP WITH TIME ZONE '2020-07-21T20:59:19Z');
